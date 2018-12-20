@@ -1,0 +1,24 @@
+
+
+ul {
+	background-color:black;
+}
+ul li {
+		display:inline-block;
+		line-heigth:5px;
+		height:20px;
+		width:
+		text-align:center;
+		text-decoration:none;
+	  }
+ul li a {
+		color: white;
+		text-align: align;
+		text-decoration: none;
+}
+ul li a:hover
+{
+ background-color:orange;
+ color:black;
+ }
+

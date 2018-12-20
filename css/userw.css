@@ -1,0 +1,153 @@
+body
+{
+	margine:0;
+	padding:0;
+	background-image:url(hike2.jpeg);
+	background-size:cover;
+	font-family:sans-serif;
+}
+header
+{
+ background:black;
+ color:white;
+ padding:8px 0px 6px 40px;
+ height:60px;
+ }
+ header h1
+ {
+ display:inline;
+ font-family:
+ font-weight:400;
+ font-size:32px;
+ float:left;
+ margin-top:10px;
+ margin-right:10px;
+ margin-bottom:10px;
+ }
+	
+
+nav ul {
+	display:inline;
+	padding:0px;
+	float:left;
+	}
+nav ul li {
+		display:inline-block;
+		list-style-type:none;
+		color:white;
+		line-heigth:20px;
+		height:8px;
+		width:70px;
+		text-align:center;
+		text-decoration:none;
+	  }
+nav ul li a {
+		color: white;
+		text-align: center;
+		text-decoration: none;
+		font-size:18px;
+		
+}
+ul li a:hover
+{ 
+ background-color:orange;
+ color:black;
+ }
+#nav
+{
+font-family:'Montserrat',sans-serif;
+}
+.divider
+{
+	bakground-color:blue;
+	padding:30px 10px 16px 10px;
+}
+#marquee
+{
+	top:300px;
+	left:20px;
+	}
+.loginbox
+{
+	position:absolute;
+	top:60%;
+	left:50%;
+    transform: translate(-50%,-50%);
+	width:300px;
+	height:400px;
+	box-sizing:border-box;
+	padding:80px 40px;
+	background:rgba(0,0,0,.5);
+}
+.user
+{
+width:100px;
+height:100px;
+border-radius:50%;
+overflow:hidden;
+position:absolute;
+top:calc(-100px/2);
+left:calc(50% - 50px)
+}
+h2
+{
+	margine:0;
+	padding:0 0 10px;
+	color:#efed40;
+	text-align:center;
+}
+.loginbox p
+{
+ 	margine:0;
+	padding:0;
+	font-weight:bold;
+	color:#fff;
+}
+.loginbox input
+{
+	width:100%;
+	margin-bottom:20px;
+}
+.loginbox input[type="text"],
+.loginbox input[type="password"]
+{
+border:none;
+border-bottom:1px solid #fff;
+background:transparent;
+outline:none;
+color:#fff;
+height:20px;
+font-size:16px;
+}
+::placeholder
+{
+ color:rgba(255,255,255,.5);
+}
+.loginbox input[type="submit"]
+{
+border:none;
+outline:none;
+color:#fff;
+height:40px;
+font-size:16px;
+background:#13BEEF;
+cursor:pointer;
+border-radius:20px;
+}
+.loginbox input[type="submit"]:hover
+{
+	background:#efed40;
+	color:#262626;
+}
+.loginbox a
+{
+ color:#fff;
+ font-size:14px;
+ font-weight:bold;
+ text-decoration:none;
+}
+   
+
+
+
+	
